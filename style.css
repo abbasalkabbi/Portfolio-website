@@ -1,0 +1,186 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+/*Style for cotainer*/
+.container{width: 900px; margin: auto;height: 100%;}
+/*Style for up-background*/
+.up-background{
+    background-image: linear-gradient(to right, #766dfe , #88f2ff);
+    z-index: 1;
+    margin: auto;
+    
+    height: 70vh;
+    
+}
+/*Style for header in .up-background*/
+/*Style for ul in container in header in .up-background*/
+.up-background  header .container ul{
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: right;
+    width: 50%;
+    z-index: 1;
+}
+.up-background  header .container li{
+    width:25%;
+    font-size: larger;
+    color: white;
+    list-style: none;
+    float: left;
+    z-index: 1;
+} 
+
+/*Style for h1 in container in header in .up-background*/
+.up-background  header .container h1{
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: larger;
+    color: white;
+    width: 20%;
+    float: left;
+    z-index: 1;
+}
+/*Style for done-background*/
+.done-background{
+    height: 30vh;
+    background-color: #fff;
+    z-index: 1;
+}
+/*Style for content*/
+.content{
+    position:absolute;
+    top:25%;
+    width: 900px;
+    height: 600px;
+    z-index: 3;
+    background-color:#fff;
+    box-shadow: 1px 1px 20px 0px black,
+               -1px -1px 20px black;
+    border-radius: 3%;
+}
+ 
+/*Style div image in content */
+.content .image{
+    float:left;
+    width: 50%;
+}
+.content .image img{
+   width: 100%;
+   padding: 10px 10px 10px 10px;
+}
+/*Style div about in content*/
+.content .about {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    text-align: center;
+}
+.content .about .info h6{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    color: #222222;
+}
+
+.content .about .info h3 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #222222;
+}
+.content .about .info h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #222222;
+}
+/*Style div contact about  in content**/
+.content .about .contact ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 40px;
+    font-size: 16px;
+    color: #777777;
+    cursor: pointer;
+}
+.content .about .contact ul a{
+    text-decoration:none;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    color: #777777;
+}
+.content .about .contact ul img{
+    width: 20px;
+}
+.content .about .contact ul img:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+/*Style skills */
+.skills{
+    margin-top:20px ;
+}
+/*how all */
+.skills .how{
+    margin: auto;
+    border-radius: 10px;
+    width:412px;
+    height: 18px;
+    background-color:#dbdbdb;
+}
+/*style p skills*/
+.skills p{
+    margin-top: -16px;
+}
+/*Style html skills */
+
+.skills .how .html{
+    border-radius: 10px;
+    width:90%;
+    height: 18px;
+    background-image: linear-gradient(to right, yellow , red);
+}
+/*Style css skills */
+
+.skills .how .css{
+    border-radius: 10px;
+    width:90%;
+    height: 18px;
+    background-image: linear-gradient(to right, yellow , red);
+}
+
+/*Style js skills */
+
+.skills .how .js{
+    border-radius: 10px;
+    width:70%;
+    height: 18px;
+    background-image: linear-gradient(to right, yellow , red);
+}
+/*Style social-media*/
+.social-media{
+   
+    width: 50%;
+    margin:40px auto;
+
+}
+.social-media ul{
+    list-style: none;
+
+}
+.social-media ul li{
+    float: left;
+}
+.social-media ul li img:hover{
+    opacity: 50%;
+}
+
+
+
+    
